@@ -1,0 +1,99 @@
+/* configuração do submenu */ 
+
+div.menu div.submenu{
+    display: none;
+    position:absolute;
+    background-color: gainsboro;
+}
+
+div.menu div.submenu{
+ width:150px   
+}
+
+div.menu{
+    overflow: hidden; 
+}
+
+nav a, div.menu{
+    float:left
+}
+
+div.menu:hover div.submenu, div.submenu a{
+    display:block;
+}
+
+div.submenu a{
+    float:none;
+}
+
+/* Formatação para computador */
+header{
+    height:100px
+}
+
+header h1{
+    color:red;
+    font-family:tahoma;
+    font-size:4vw;
+    text-align:center
+}
+
+header img{
+    width:30vw;
+    border-radius: 60px;
+    float:left
+}
+
+nav {
+    background-color: #DFDFD8;
+    padding: 1vw;
+    overflow: hidden;    
+}
+
+button{
+    border:none; 
+    background-color: #DFDFD8;
+}
+
+nav a, button{
+   padding: 1vw;
+   text-decoration: none;
+   color:black;
+   border-color:none; 
+   background-color: #DFDFD8;
+   font-family:arial;
+   font-size:14px
+}
+
+nav a:hover, button:hover {
+    color:darkgrey;
+    background-color:black 
+}
+
+section iframe{
+    width:100%;
+    height:500px;
+    border:0
+}
+
+/* Configuração para tablet */
+@media only screen and (max-width: 900px) {
+        
+}
+
+/* Configuração para celular */
+@media only screen and (max-width: 600px) {
+  nav a{
+   display:block
+  }
+  
+   nav a:hover {
+    color:blue;
+    background-color:white 
+   }
+   
+   header{
+    height:30px
+   }
+   
+}    
